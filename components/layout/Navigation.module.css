@@ -7,21 +7,48 @@
 .navBar{
     display: flex;
     justify-content: flex-end;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
    box-shadow: 0 2px 8px 5px rgb(0 0 0 / 20%);
+   
    
 }
 .navBar ul{
     display: flex;
     list-style: none;
+    font-size: 2rem;
     
 }
 .navBar li{
-    margin :1rem 1.5rem;
+    margin :2vh 2vh;
 }
 
 .navBar a{
     text-decoration: none;
     color: black;
+}
+
+.icon{
+    margin:2rem;
+}
+
+@media  all and (max-width:600px) {
+
+    .navBar{
+        display: flex;
+        
+        align-items: center;
+       
+       
+    }
+    .navBar ul{
+        margin-right: 30%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .navBar li{
+        margin :1vh 1vh;
+    }
 }
 

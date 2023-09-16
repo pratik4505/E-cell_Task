@@ -1,0 +1,88 @@
+
+.bg{
+    padding-top: 13vw;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #a7a7a7, #fcfafa,#a7a7a7, #fcfafa );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.portfolio{
+
+    display: flex;
+    
+    margin-left: 13vw;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.profile{
+    width:3 rem;
+    border-radius: 30% 70% 57% 43% / 30% 30% 70% 70% ; 
+    margin-right: 3rem;
+}
+
+
+
+.button {
+    width: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #6C55E1 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.about{
+    padding-top: 2rem;
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+.about h1{
+    color: #3f3d47;
+}
+.about p{
+    color: grey;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:992px) {
+
+    .portfolio{
+        flex-direction: column;
+    }
+    
+}

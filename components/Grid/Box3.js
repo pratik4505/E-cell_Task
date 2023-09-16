@@ -16,7 +16,7 @@ const initial = {
 
 
 
-const Box3 = () => {
+const Box3 = (props) => {
 
     const [color,setColor]=useState(initial);
     const [seqOrder,setSeqOrder]=useState([]);
@@ -87,7 +87,7 @@ const Box3 = () => {
 
   return (
     <>
-      <ul className={classes.grid_box}>
+      <ul className={`${classes.grid_box} ${props.className}`}>
         {temp}
       </ul>
     </>
