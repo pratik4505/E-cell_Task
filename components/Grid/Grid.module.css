@@ -1,0 +1,29 @@
+.grid{
+    display: flex;
+    margin: 4rem 10%;
+    
+    width:auto;
+    
+
+}
+
+.box1,.box2{
+    width:25vw;
+    height: 25vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.box1{
+    
+    background-image: linear-gradient(to bottom right, #4401FF, #DF01FF);
+}
+
+.box2{
+    background-color: #F7F7F7;
+}
+
+
+
+
